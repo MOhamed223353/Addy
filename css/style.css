@@ -22,7 +22,7 @@ height: 120vh;
 }
 .home {
   position: absolute;
-  top: 35%;
+  top: 30%;
   left: 13%;
   color: white;
 }
@@ -97,13 +97,13 @@ h2 {
 
 @media (max-width: 600px) {
     .parent1 {
-        height: 140vh !important ;
+        height: 110vh !important ;
       }
     .navbar-brand img {
-    width: 120% !important;
+    width: 160% !important;
   }
   .home{
-    top: 35% !important;
+    top: 25% !important;
   }
   .nav-link
   {
@@ -113,8 +113,26 @@ h2 {
   {
     padding-bottom: 10px;
   }
-
-
+  .nav-item a
+  {
+    font-size: 20px;
+  }
+  .home h1,
+  h2 {
+    font-size: 40px !important;
+    
+    
+  }
+}
+@media (min-width: 601px) and (max-width: 990px)
+{
+  .navbar-brand img {
+    width: 160% !important;
+  }
+  .parent1
+  {
+    height: 100vh !important;
+  }
 }
 
 /******************************************************/
@@ -187,10 +205,9 @@ width: 70%;
     margin-top: 20px !important;
     width: auto;
   }
-  /* .servicesChild img
-  {
-    width: 30% !important;
-  } */
+  .servicesHead{
+    margin-bottom: 0px !important;
+  }
   .servicesChild i
   {
     padding-left: 5px !important;
@@ -211,6 +228,9 @@ width: 70%;
 
 @media (min-width: 601px) and (max-width: 999px)
 {
+  .servicesHead{
+    margin-bottom: 0px !important;
+  }
   .servicesChild h3 {
     font-size: 25px !important;
   }
@@ -253,11 +273,19 @@ width: 70%;
   .gallery {
     margin-top: 30px !important;
   }
+  
   .galleryChild {
     margin-top: 20px !important;
   }
   .galleryChild img {
     height: auto !important;
+  }
+}
+@media (min-width: 601px) and (max-width: 999px)
+{
+  .parent3
+  {
+    height: max-content !important;
   }
 }
 /******************************************************/
@@ -334,6 +362,19 @@ span {
   .parent4-child {
     padding-top: 50px !important;
   }
+  .parent4-child h2 
+  {
+    font-size: 35px !important;
+  }
+  .parent4 button {
+    
+    font-size: 20px !important;
+    padding: 10px 40px !important;
+  }
+  .firstPart, .secondPart
+  {
+    width: 100% !important;
+  }
   .lastSection
   {
     margin-top: 50px !important;
@@ -350,6 +391,22 @@ text-align: center !important;
   {
     width: 100% !important;
     margin: 50px 0 !important;
+
+  }
+}
+
+
+@media (min-width: 601px) and (max-width: 999px)
+{
+  .parent4
+  {
+    height: max-content !important;
+    padding-top: 30px !important;
+  }
+  .footerLogo img 
+  {
+    width: 150% !important;
+    
 
   }
 }
